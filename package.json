@@ -1,12 +1,12 @@
 {
-  "name": "ionic-logging",
-  "version": "12.0.0",
+  "name": "amos-ionic-logging",
+  "version": "12.0.1",
   "description": "Components for Ionic logging",
   "author": {
-    "name": "Markus Wagner",
-    "email": "markus.wagner02@web.de"
+    "name": "amosbaby",
+    "email": "silence.amos@gmail.com"
   },
-  "repository": "https://github.com/Ritzlgrmft/ionic-logging-service.git",
+  "repository": "https://github.com/amosbaby/ionic-logging-service.git",
   "license": "MIT",
   "private": false,
   "keywords": [

@@ -1,5 +1,5 @@
 {
-	"name": "ionic-logging-viewer-app",
+	"name": "amos-ionic-logging-viewer-app",
 	"integrations": {
 		"cordova": {}
 	},
