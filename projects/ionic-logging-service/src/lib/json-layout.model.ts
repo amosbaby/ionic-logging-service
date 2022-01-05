@@ -19,6 +19,14 @@ export class JsonLayout extends log4javascript.JsonLayout {
 			url: window.location.href,
 			message: this.isCombinedMessages() ? loggingEvent.getCombinedMessages() : loggingEvent.messages
 		};
+
+		// 将自定义字段拷贝进来
+		if (this.customFields && this.customFields.length) {
+			this.customFields.forEach(field => {
+				Reflect.set(eventObj, field.name, field.value)
+			})
+		}
+
 		return JSON.stringify(eventObj);
 	}
 
